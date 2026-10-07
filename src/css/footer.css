@@ -5,11 +5,7 @@ body {
   background: #ffcca6;
   padding-block: 80px;
 }
-.container {
-  max-width: 1440px;
-  margin-inline: auto;
-  padding-inline: 64px;
-}
+
 .footer-list {
   display: flex;
   gap: 24px;
@@ -17,6 +13,7 @@ body {
   column-gap: 32px;
   margin: 0;
   padding: 0;
+  padding-bottom: 32px;
 }
 
 .footer-info {
@@ -35,4 +32,11 @@ body {
 .nav-links {
   color: #241e1e;
   text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-list {
+    flex-direction: column;
+    align-items: center;
+  }
 }
