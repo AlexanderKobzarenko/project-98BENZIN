@@ -19,7 +19,7 @@
       rel="stylesheet"
     />
     <script type="module" crossorigin src="/project-98BENZIN/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/project-98BENZIN/assets/index-BIik-7EO.css">
+    <link rel="stylesheet" crossorigin href="/project-98BENZIN/assets/index-DjG8IDe8.css">
   </head>
   <body>
     <header class="header" id="header">
@@ -225,7 +225,68 @@
 </section>
 
       
-      
+      <section class="register" id="register" aria-labelledby="register-title">
+  <div class="container register-container">
+    <div class="register-content">
+      <h2 class="register-title" id="register-title">Register</h2>
+
+      <form class="register-form">
+        <div class="form-field">
+          <label for="register-name">Name*</label>
+          <input
+            id="register-name"
+            type="text"
+            name="name"
+            placeholder="Emma"
+            required
+            minlength="5"
+            maxlength="64"
+            pattern="^[a-zA-Z\s\.]{5,64}$"
+            title="Use 5 to 64 Latin letters, spaces, or dots."
+            autocomplete="name"
+          />
+        </div>
+
+        <div class="form-field">
+          <label for="register-email">Email*</label>
+          <input
+            id="register-email"
+            type="email"
+            name="email"
+            placeholder="hello@wildsketch.com"
+            required
+            pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+            title="Enter a valid email address."
+            autocomplete="email"
+          />
+        </div>
+
+        <div class="form-field">
+          <label for="register-skills">Describe your skills</label>
+          <textarea
+            id="register-skills"
+            name="skills"
+            placeholder="Type your skills..."
+            maxlength="500"
+          ></textarea>
+        </div>
+        <button class="register-button" type="submit">Register</button>
+      </form>
+    </div>
+
+    <img
+      class="register-image"
+      src="../img/images/Register/Register-1.jpg"
+      srcset="../img/images/Register/Register-1.jpg 1x, ../img/images/Register/Register-1@2x.jpg 2x"
+      alt="Artist painting outdoors at an easel"
+      width="640"
+      height="734"
+      loading="lazy"
+      decoding="async"
+    />
+  </div>
+</section>
+
     </main>
 
     
