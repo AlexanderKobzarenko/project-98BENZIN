@@ -2,8 +2,6 @@
   padding: 64px 0;
 }
 
-
-
 .register-container,
 .register-content,
 .register-form,
@@ -120,9 +118,7 @@
 /* Tablet */
 
 @media screen and (min-width: 768px) {
-  .register-container {
-    max-width: 768px;
-  }
+  
 
   .register-button {
     width: 340px;
@@ -141,7 +137,6 @@
   }
 
   .register-container {
-    max-width: 1440px;
     flex-direction: row;
     align-items: flex-start;
     gap: 32px;
