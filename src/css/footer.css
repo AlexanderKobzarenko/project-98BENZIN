@@ -13,7 +13,7 @@ body {
   column-gap: 32px;
   margin: 0;
   padding: 0;
-  padding-bottom: 32;
+  padding-bottom: 32px;
 }
 
 .footer-info {
