@@ -8,12 +8,12 @@ body {
 
 .footer-list {
   display: flex;
-  flex-direction: row;
   gap: 24px;
   list-style: none;
   column-gap: 32px;
   margin: 0;
   padding: 0;
+  padding-bottom: 32px;
 }
 
 .footer-info {
@@ -21,14 +21,9 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 32px;
-  padding-bottom: 32px;
 }
 
 .footer-copy {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.5;
-  color: #0c0708;
   border-top: 1px solid rgba(12, 7, 8, 0.15);
   padding-top: 32px;
   text-align: center;
@@ -38,10 +33,10 @@ body {
   color: #241e1e;
   text-decoration: none;
 }
-@media screen and (max-width: 320px) {
-.footer-list {
- 
-  flex-direction: column;
 
-}
+@media screen and (max-width: 768px) {
+  .footer-list {
+    flex-direction: column;
+    align-items: center;
+  }
 }
