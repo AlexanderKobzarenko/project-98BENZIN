@@ -5,12 +5,7 @@
     justify-content: flex-start;
     flex-direction: column;
 }
-.m-container {
-    width: 100%;
-    max-width: 320px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
+
 
 .m-team-title {
     font-weight: 700;
@@ -66,9 +61,6 @@
 }
 
 @media only screen and (min-width: 768px) {
-    .m-container {
-        max-width: 768px;
-    }
 
     .m-team {
         padding: 64px 32px;
@@ -80,9 +72,6 @@
 }
 
 @media only screen and (min-width: 1158px) {
-    .m-container {
-        max-width: 1158px;
-    }
 
     .m-team {
         padding: 64px 0;
