@@ -12,6 +12,7 @@ body {
 }
 .footer-list {
   display: flex;
+  flex-direction: column;
   gap: 24px;
   list-style: none;
   column-gap: 32px;
