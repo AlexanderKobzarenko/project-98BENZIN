@@ -31,8 +31,7 @@
   width: 100%;
   padding: 0 12px 0 20px;
 }
-.mobile-menu-logo {
-}
+
 .mobile-menu-logo-icon {
   width: 117px;
   height: 50px;
@@ -42,8 +41,6 @@
   align-items: center;
   gap: 16px;
   margin-left: auto;
-}
-.mobile-menu-actions-list {
 }
 .mobile-menu-action-item {
   display: flex;
@@ -64,7 +61,6 @@
 
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .mobile-menu-action-item:hover {
   opacity: 0.5;
 }
@@ -76,8 +72,6 @@
 
 .mobile-menu-action-item:disabled {
   opacity: 0.2;
-}
-.mobile-menu-nav-link {
 }
 .mobile-menu-btn {
   display: flex;
