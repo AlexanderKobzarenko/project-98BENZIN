@@ -1,13 +1,12 @@
 img {
-  display: block;
   max-width: 100%;
   height: auto;
 }
 
 .gallery-container {
-  padding: 64px 20px;
+  padding-top: 64px;
+  padding-bottom: 64px;
   max-width: 375px;
-  margin: 0 auto;
 }
 
 .gallery-title {
@@ -18,7 +17,6 @@ img {
 }
 
 .gallery-text {
-  font-family: 'Tajawal', sans-serif;
   font-size: 18px;
   text-align: center;
   margin-bottom: 32px;
@@ -41,8 +39,6 @@ img {
 @media screen and (min-width: 768px) {
   .gallery-container {
     max-width: 768px;
-    padding-right: 32px;
-    padding-left: 32px;
   }
   .gallery-list {
     column-gap: 24px;
@@ -69,7 +65,6 @@ img {
 @media screen and (min-width: 1440px) {
   .gallery-container {
     max-width: 1440px;
-    padding: 64px;
   }
   .gallery-text {
     margin-bottom: 80px;
