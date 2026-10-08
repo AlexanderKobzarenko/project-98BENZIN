@@ -95,7 +95,7 @@
     grid-column: 1;
     grid-row: 1 / span 2;
     max-width: none;
-    width: 616px;
+    width: 616;
   }
 
   .benefits-title {
