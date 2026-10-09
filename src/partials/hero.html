@@ -14,19 +14,30 @@
     </div>
 
     <div class="hero-thumb">
-      <img
-        class="hero-img"
-        src="./img/images/Hero/Hero-1.png"
-        srcset="
-          ./img/images/Hero/Hero-1.png    1x,
-          ./img/images/Hero/Hero-1@2x.png 2x
-        "
-        alt="Nature and houses illustration"
-        width="857"
-        height="659"
-        fetchpriority="high"
-        decoding="async"
-      />
+      <picture>
+        <source
+          type="image/webp"
+          srcset="
+            ./img/images/Hero/hero-1-640.webp  640w,
+            ./img/images/Hero/hero-1.webp      857w,
+            ./img/images/Hero/hero-1@2x.webp  1714w
+          "
+          sizes="(min-width: 1440px) 857px, (min-width: 768px) 704px, 335px"
+        />
+        <img
+          class="hero-img"
+          src="./img/images/Hero/Hero-1.png"
+          srcset="
+            ./img/images/Hero/Hero-1.png    1x,
+            ./img/images/Hero/Hero-1@2x.png 2x
+          "
+          alt="Nature and houses illustration"
+          width="857"
+          height="659"
+          fetchpriority="high"
+          decoding="async"
+        />
+      </picture>
     </div>
   </div>
 </section>
