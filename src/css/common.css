@@ -3,6 +3,17 @@ body {
   background: #faf6f3;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 h2 {
   font-family: 'Caveat', sans-serif;
 }
@@ -25,10 +36,6 @@ h2 {
     max-width: 1440px;
     padding: 0 64px;
   }
-}
-p {
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 ul {
