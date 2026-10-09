@@ -15,8 +15,8 @@
 }
 
 .register-title {
-  margin-bottom: 32px;
   font-family: 'Caveat', cursive;
+  margin-bottom: 32px;
   font-size: 48px;
   font-weight: 700;
   line-height: 1.1;
@@ -41,14 +41,12 @@
   border: 1px solid rgba(12, 7, 8, 0.15);
   border-radius: 12px;
   outline: none;
-
   background: rgba(12, 7, 8, 0.05);
-
   font-family: 'Tajawal', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: rgba(12, 7, 8, 0.6);
+  color: #0c0708;
 }
 
 .form-field input {
@@ -69,7 +67,7 @@
 
 .form-field input:focus,
 .form-field textarea:focus {
-  border: 1px solid #0c0708;
+  border-color: #0c0708;
 }
 
 .form-field input::placeholder,
@@ -90,18 +88,27 @@
 
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
+  font-weight: 400;
   line-height: 1.5;
+  color: #0c0708;
 
   background-color: #ffb780;
   cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .register-button:hover,
 .register-button:focus-visible {
-  background-color: #ffa461;
+  opacity: 0.5;
 }
-
+.register-button:active {
+  opacity: 0.7;
+}
+.register-button:disabled {
+  opacity: 0.2;
+  cursor: not-allowed;
+}
 /* Image */
 
 .register-image {
@@ -145,10 +152,6 @@
   display: block;
 }
 
-.form-field input:user-invalid:focus,
-.form-field textarea:user-invalid:focus {
-  border: 1px solid #b50000;
-}
 /* Tablet */
 
 @media screen and (min-width: 768px) {
