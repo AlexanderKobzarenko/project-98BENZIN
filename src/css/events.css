@@ -64,6 +64,20 @@
   transition: color 250ms ease;
 }
 
+.events-location:hover,
+.events-location:focus-visible {
+  opacity: 0.5;
+}
+
+.events-location:active {
+  opacity: 0.7;
+}
+
+.events-location:disabled {
+  opacity: 0.2;
+  cursor: not-allowed;
+}
+
 .events-location-icon {
   flex: none;
   width: 24px;
@@ -72,17 +86,31 @@
 }
 
 .events-btn {
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   padding: 8px 20px;
+  border: 1px solid #d6d6d6;
+  color: #0c0708;
   height: 40px;
   border-radius: 100px;
   font-size: 14px;
   text-decoration: none;
   cursor: pointer;
-  transition:
-    opacity 250ms ease;
+}
+
+.events-btn:hover,
+.events-btn:focus-visible {
+  opacity: 0.5;
+}
+
+.events-btn:active {
+  opacity: 0.7;
+}
+
+.events-btn:disabled {
+  opacity: 0.2;
+  cursor: not-allowed;
 }
 
 @media screen and (max-width: 767px) {
