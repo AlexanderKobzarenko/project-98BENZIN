@@ -17,6 +17,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 32px;
+    padding: 0;
 }
 
 .m-feedbacks-item {
@@ -58,16 +59,13 @@
         }
 }
 @media screen and (min-width: 1440px) {
-    .m-feedbacks {
-        padding: 64px 0;
-    }
         .m-feedbacks-title {
             margin-bottom: 80px;
         }
         .m-feedbacks-list {
-            gap: 80px;
+            gap: 32px;
         }
     .m-feedbacks-item {
-        width: calc((100% - (80px * 2)) / 3);
+        width: calc((100% - (32px * 2)) / 3);
     }
 }
