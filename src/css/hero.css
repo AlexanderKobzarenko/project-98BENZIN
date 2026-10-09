@@ -1,0 +1,86 @@
+.hero {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  overflow: hidden;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.hero-content {
+  flex-basis: 423px;
+  flex-shrink: 0;
+}
+
+.hero-title {
+  font-family: "Caveat", cursive;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 0.95;
+  color: #0c0708;
+  margin-bottom: 20px;
+}
+
+.hero-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #4a4a4a;
+  margin-bottom: 32px;
+}
+
+.hero-buttons {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.hero-buttons .hero-link {
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 250ms ease;
+}
+
+.hero-buttons .hero-link.btn-primary {
+  padding: 14px 36px;
+  background-color: #ff9167;
+  color: #ffffff;
+  border-radius: 30px;
+}
+
+.hero-buttons .hero-link.btn-primary:hover {
+  background-color: #e57f56;
+}
+
+.hero-buttons .hero-link.btn-secondary {
+  padding: 14px 36px;
+  color: #0c0708;
+  border: 1px solid #0c0708;
+  border-radius: 30px;
+  background-color: transparent;
+}
+
+.hero-buttons .hero-link.btn-secondary:hover {
+  color: #ffffff;
+  background-color: #0c0708;
+}
+
+.hero-thumb {
+  flex-grow: 1;
+  max-width: 857px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
