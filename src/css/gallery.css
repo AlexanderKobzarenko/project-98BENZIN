@@ -53,7 +53,7 @@ img {
   .gallery-item:nth-child(3) {
     width: 335px;
   }
-  .gallery-item:nth-child(3) .gallery-pic {
+  .gallery-item:nth-child(3) > .gallery-pic {
     height: 238px;
     object-fit: cover;
   }
