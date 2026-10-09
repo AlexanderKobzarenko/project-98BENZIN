@@ -74,7 +74,7 @@
 
   .benefits-pic {
     max-width: 522px;
-    margin: 48px auto 0;
+    margin: auto 0;
   }
 }
 
@@ -113,7 +113,6 @@
   }
 }
 
-/* <picture> не должен ломать сетку и центрирование картинки */
 .benefits picture {
   display: contents;
 }
