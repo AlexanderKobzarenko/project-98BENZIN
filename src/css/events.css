@@ -60,17 +60,22 @@
   gap: 4px;
   color: #0c0708;
   text-decoration: none;
-  transition: color 0.25s ease;
+  cursor: pointer;
+  transition: color 250ms ease;
 }
 
 .events-location:hover,
 .events-location:focus-visible {
-  text-decoration: underline;
-  color: #0c0708;
+  opacity: 0.5;
 }
 
 .events-location:active {
-  color: #0c0708;
+  opacity: 0.7;
+}
+
+.events-location:disabled {
+  opacity: 0.2;
+  cursor: not-allowed;
 }
 
 .events-location-icon {
@@ -81,28 +86,31 @@
 }
 
 .events-btn {
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   padding: 8px 20px;
   border: 1px solid #d6d6d6;
+  color: #0c0708;
   height: 40px;
   border-radius: 100px;
   font-size: 14px;
   text-decoration: none;
-  transition:
-    background-color 0.25s ease,
-    border-color 0.25s ease;
+  cursor: pointer;
 }
 
 .events-btn:hover,
 .events-btn:focus-visible {
-  background-color: #ffcca6;
-  border-color: #0c0708;
+  opacity: 0.5;
 }
 
 .events-btn:active {
-  background-color: #ffb780;
+  opacity: 0.7;
+}
+
+.events-btn:disabled {
+  opacity: 0.2;
+  cursor: not-allowed;
 }
 
 @media screen and (max-width: 767px) {
