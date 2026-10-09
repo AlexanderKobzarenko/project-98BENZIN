@@ -1,9 +1,5 @@
 .m-team {
-    padding: 64px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
+    padding: 64px 0;
 }
 
 
@@ -17,7 +13,6 @@
 }
 
 .m-team-text {
-    font-family: "Tajawal", sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.5;
@@ -44,7 +39,6 @@
 }
 
 .m-team-name {
-    font-family: "Tajawal", sans-serif;
     font-weight: 700;
     font-size: 20px;
     line-height: 1.5;
@@ -52,7 +46,6 @@
 }
 
 .m-team-role {
-    font-family: "Tajawal", sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.5;
@@ -62,21 +55,12 @@
 
 @media only screen and (min-width: 768px) {
 
-    .m-team {
-        padding: 64px 32px;
-    }
-
     .m-team-item {
         width: calc((100% - 24px) / 2);
     }
 }
 
 @media only screen and (min-width: 1440px) {
-
-    .m-team {
-        padding: 64px 0;
-    }
-
     .m-team-list {
         gap: 32px;
     }
