@@ -15,8 +15,8 @@
 }
 
 .register-title {
-  margin-bottom: 32px;
   font-family: 'Caveat', cursive;
+  margin-bottom: 32px;
   font-size: 48px;
   font-weight: 700;
   line-height: 1.1;
@@ -38,18 +38,15 @@
 .form-field textarea {
   width: 100%;
 
-  border: 0;
+  border: 1px solid rgba(12, 7, 8, 0.15);
   border-radius: 12px;
   outline: none;
-
-  background-color: rgb(12 7 8 / 5%);
-  box-shadow: inset 0 0 0 1px rgb(12 7 8 / 15%);
-
-  font-family: 'Roboto', sans-serif;
+  background: rgba(12, 7, 8, 0.05);
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: #0c0708;
 }
 
 .form-field input {
@@ -63,14 +60,14 @@
   resize: none;
 }
 
-.form-field input:hover,
-.form-field textarea:hover {
-  box-shadow: inset 0 0 0 1px rgb(12 7 8 / 35%);
+.form-field input:hover::placeholder,
+.form-field textarea:hover::placeholder {
+  color: #0c0708;
 }
 
 .form-field input:focus,
 .form-field textarea:focus {
-  box-shadow: inset 0 0 0 2px #0c0708;
+  border-color: #0c0708;
 }
 
 .form-field input::placeholder,
@@ -91,19 +88,27 @@
 
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
+  font-weight: 400;
   line-height: 1.5;
+  color: #0c0708;
 
   background-color: #ffb780;
   cursor: pointer;
 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .register-button:hover,
 .register-button:focus-visible {
-  background-color: #ffa461;
+  opacity: 0.5;
 }
-
+.register-button:active {
+  opacity: 0.7;
+}
+.register-button:disabled {
+  opacity: 0.2;
+  cursor: not-allowed;
+}
 /* Image */
 
 .register-image {
@@ -113,6 +118,38 @@
 
   border-radius: 16px;
   object-fit: cover;
+}
+/* Error */
+.form-error {
+  display: none;
+  color: #b50000;
+  font-family: 'Tajawal', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+/* Ошибка */
+.form-field input:user-invalid {
+  color: #b50000;
+  border: 1px solid #b50000;
+  box-shadow: none;
+}
+
+/* Placeholder при ошибке */
+.form-field input:user-invalid::placeholder {
+  color: #b50000;
+}
+
+/* Ошибка + focus */
+.form-field input:user-invalid:focus {
+  border-color: #b50000;
+  box-shadow: none;
+}
+
+/* Показ сообщения */
+.form-field input:user-invalid + .form-error {
+  display: block;
 }
 
 /* Tablet */

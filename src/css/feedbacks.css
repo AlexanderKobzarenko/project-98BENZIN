@@ -1,7 +1,5 @@
 .m-feedbacks{
-    padding: 64px 20px;
-    display: flex;
-    gap: 32px;
+    padding: 64px 0px;
 }
 
 
@@ -18,7 +16,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 24px;
+    gap: 32px;
+    padding: 0;
 }
 
 .m-feedbacks-item {
@@ -53,20 +52,20 @@
 
 @media screen and (min-width: 768px) {
     .m-feedbacks {
-            padding: 64px 32px;
+            padding: 64px 0px;
         }
         .m-feedbacks-item{
             width: calc(( 100% - 32px ) / 2);
         }
 }
 @media screen and (min-width: 1440px) {
-    .m-feedbacks {
-        padding: 64px 0;
-    }
         .m-feedbacks-title {
             margin-bottom: 80px;
         }
+        .m-feedbacks-list {
+            gap: 32px;
+        }
     .m-feedbacks-item {
-        width: calc((100% - (24px * 2)) / 3);
+        width: calc((100% - (32px * 2)) / 3);
     }
 }
