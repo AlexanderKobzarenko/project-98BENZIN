@@ -99,7 +99,7 @@
 
 .register-button:hover,
 .register-button:focus-visible {
-  background-color: #ffa461;
+  opacity: 0.5;
 }
 
 /* Image */
