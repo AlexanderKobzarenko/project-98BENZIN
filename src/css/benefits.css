@@ -110,8 +110,8 @@
   .benefits picture {
     flex: none;
     align-self: flex-start;
-    width: 616px;
-    max-width: none;
+    max-width: 616px;
+    width: 100%;
   }
 
   .benefits-pic {
