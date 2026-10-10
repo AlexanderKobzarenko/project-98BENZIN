@@ -202,8 +202,8 @@
   }
 
   .events-btn {
-    margin-right: 16px;
-    padding: 20px;
+    flex: none;
+    width: 97px;
   }
 }
 
