@@ -110,6 +110,10 @@
   cursor: not-allowed;
 }
 /* Image */
+.register-container > picture {
+  display: block;
+  width: 100%;
+}
 
 .register-image {
   display: block;
@@ -187,9 +191,13 @@
     width: 304px;
   }
 
-  .register-image {
+.register-container > picture {
     width: 640px;
-    height: 734px;
     flex: 0 0 640px;
+  }
+
+  .register-image {
+    width: 100%;
+    height: 734px;
   }
 }
