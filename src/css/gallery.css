@@ -1,12 +1,6 @@
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-.gallery-container {
+.gallery-section {
   padding-top: 64px;
   padding-bottom: 64px;
-  max-width: 375px;
 }
 
 .gallery-title {
@@ -33,13 +27,13 @@ img {
 }
 
 .gallery-pic {
+  display: block;
+  max-width: 100%;
+  height: auto;
   border-radius: 16px;
 }
 
 @media screen and (min-width: 768px) {
-  .gallery-container {
-    max-width: 768px;
-  }
   .gallery-list {
     column-gap: 24px;
     row-gap: 32px;
@@ -63,9 +57,6 @@ img {
 }
 
 @media screen and (min-width: 1440px) {
-  .gallery-container {
-    max-width: 1440px;
-  }
   .gallery-text {
     margin-bottom: 80px;
   }
