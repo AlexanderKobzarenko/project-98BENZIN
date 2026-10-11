@@ -78,7 +78,7 @@
 
 @media screen and (min-width: 768px) {
   .benefits {
-    padding: 40px 32px;
+    padding: 40px 0;
   }
 
   .benefits picture {
