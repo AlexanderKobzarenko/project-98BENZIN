@@ -27,8 +27,8 @@
   display: flex;
   flex-direction: column;
   gap: 32px;
-  margin: 0 0 32px;
-  padding: 8px 0;
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -78,7 +78,7 @@
 
 @media screen and (min-width: 768px) {
   .benefits {
-    padding: 40px 32px;
+    padding: 40px 0;
   }
 
   .benefits picture {

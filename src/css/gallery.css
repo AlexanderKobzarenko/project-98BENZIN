@@ -1,10 +1,4 @@
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-.gallery-container {
+.gallery-section {
   padding-top: 64px;
   padding-bottom: 64px;
 }
@@ -13,7 +7,7 @@ img {
   font-size: 48px;
   line-height: 1.1;
   text-align: center;
-  margin: 0 0 24px;
+  margin-bottom: 24px;
 }
 
 .gallery-text {
@@ -33,6 +27,9 @@ img {
 }
 
 .gallery-pic {
+  display: block;
+  max-width: 100%;
+  height: auto;
   border-radius: 16px;
 }
 
