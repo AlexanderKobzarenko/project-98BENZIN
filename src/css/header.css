@@ -1,22 +1,4 @@
 .header {
-  width: 100%;
-  max-width: 375px;
-  margin: 0 auto;
-  padding: 3px 12px 3px 20px;
-}
-
-@media only screen and (min-width: 768px) {
-  .header {
-    max-width: 768px;
-    padding: 7px 32px;
-  }
-}
-
-@media only screen and (min-width: 1440px) {
-  .header {
-    max-width: 1440px;
-    padding: 7px 64px;
-  }
 }
 
 .header-container {
@@ -24,6 +6,24 @@
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
+  width: 100%;
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 3px 12px 3px 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .header-container {
+    max-width: 768px;
+    padding: 7px 32px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .header-container {
+    max-width: 1440px;
+    padding: 7px 64px;
+  }
 }
 
 .header-logo {
