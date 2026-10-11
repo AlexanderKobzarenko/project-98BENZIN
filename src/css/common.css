@@ -1,5 +1,17 @@
 body {
   font-family: 'Tajawal', sans-serif;
+  background: #faf6f3;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 h2 {
@@ -7,7 +19,7 @@ h2 {
 }
 
 .container {
-  max-width: 320px;
+  max-width: 375px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -24,10 +36,6 @@ h2 {
     max-width: 1440px;
     padding: 0 64px;
   }
-}
-p {
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 ul {

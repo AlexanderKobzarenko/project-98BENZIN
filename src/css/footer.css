@@ -6,6 +6,10 @@ body {
   padding-block: 80px;
 }
 
+.container {
+  padding: 0 32px;
+}
+
 .footer-list {
   display: flex;
   gap: 24px;
