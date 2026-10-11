@@ -198,4 +198,9 @@
   .container.register-container {
     padding: 0 64px;
   }
+
+  .register-image {
+    width: 100%;
+    height: 734px;
+  }
 }
