@@ -61,7 +61,8 @@
   color: #0c0708;
   text-decoration: none;
   cursor: pointer;
-  transition: color 250ms ease;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: opacity;
 }
 
 .events-location:hover,
@@ -96,6 +97,8 @@
   font-size: 14px;
   text-decoration: none;
   cursor: pointer;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: opacity;
 }
 
 .events-btn:hover,
@@ -226,5 +229,9 @@
 
   .events-date {
     padding-left: 32px;
+  }
+
+  .container.events-container {
+    padding: 0 64px;
   }
 }
