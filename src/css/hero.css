@@ -1,14 +1,14 @@
 .hero {
-  padding: 64px 20px;
+  padding: 64px 0;
   overflow: hidden;
 }
 
 .hero .hero-container {
   display: flex;
   flex-direction: column;
-  max-width: 335px;
+  max-width: 375px;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 20px;
 }
 
 .hero-content {
@@ -89,11 +89,12 @@
 
 @media (min-width: 768px) {
   .hero {
-    padding: 64px 32px;
+    padding: 64px 0;
   }
 
   .hero .hero-container {
     max-width: 704px;
+    padding: 0 20px;
   }
 
   .hero-title {
@@ -127,7 +128,8 @@
     align-items: center;
     gap: 32px;
     width: 100%;
-    max-width: 1312px;
+    max-width: 1440px;
+    padding: 0 64px;
   }
 
   .hero-content {
