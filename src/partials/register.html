@@ -49,18 +49,38 @@
       </form>
     </div>
 
-    <img
-      class="register-image"
-      src="img/images/Register/Register-1.jpg"
-      srcset="
-        img/images/Register/Register-1.jpg    1x,
-        img/images/Register/Register-1@2x.jpg 2x
-      "
-      alt="Artist painting outdoors at an easel"
-      width="640"
-      height="734"
-      loading="lazy"
-      decoding="async"
-    />
+    <picture>
+      <source
+        media="(min-width: 1440px)"
+        srcset="
+          img/images/Register/register-desk.webp    1x,
+          img/images/Register/register-desk@2x.webp 2x
+        "
+        type="image/webp"
+      />
+
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          img/images/Register/register-tab.webp     1x,
+          img/images/Register/register-tab@2x.webp 2x
+        "
+        type="image/webp"
+      />
+
+      <img
+        class="register-image"
+        src="img/images/Register/register-mob.webp"
+        srcset="
+          img/images/Register/register-mob.webp    1x,
+          img/images/Register/register-mob@2x.webp 2x
+        "
+        alt="Artist painting outdoors at an easel"
+        width="335"
+        height="286"
+        loading="lazy"
+        decoding="async"
+      />
+    </picture>
   </div>
 </section>
