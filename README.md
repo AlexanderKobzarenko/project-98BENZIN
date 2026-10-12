@@ -59,7 +59,8 @@ WildSketch — лендінг за макетом у Figma та технічни
 | Mobile menu | [@devlebid](https://github.com/devlebid)                                                                                                                   |
 
 **Team Lead:** [@AlexanderKobzarenko](https://github.com/AlexanderKobzarenko)
-**Scrum Master:** [@Ivanduik] **Ментор:** [@SergeyKorobka]
+**Scrum Master:** [@Ivanduik](https://github.com/Ivanduik) **Ментор:**
+[@SergeyKorobka](https://github.com/SergeyKorobka)
 
 ## Швидкий старт
 
