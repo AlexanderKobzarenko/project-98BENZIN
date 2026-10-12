@@ -45,11 +45,10 @@
 }
 
 .m-team-role {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.5;
-  color: #0c0708;
-  margin-top: 16px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #0c0708;
 }
 
 @media only screen and (min-width: 768px) {
